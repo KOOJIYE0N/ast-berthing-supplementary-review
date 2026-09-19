@@ -1,0 +1,354 @@
+{
+ "primary": [
+  {
+   "condition": "none",
+   "n_pairs": 24,
+   "rgb": 23,
+   "depth": 24,
+   "depth_only_success": 1,
+   "rgb_only_success": 0,
+   "mcnemar_p": 1.0,
+   "holm_p": 1.0,
+   "rgb_wilson95_pct": [
+    79.75819352134405,
+    99.26065438344942
+   ],
+   "depth_wilson95_pct": [
+    86.20237953250198,
+    100.0
+   ]
+  },
+  {
+   "condition": "top",
+   "n_pairs": 24,
+   "rgb": 20,
+   "depth": 20,
+   "depth_only_success": 3,
+   "rgb_only_success": 3,
+   "mcnemar_p": 1.0,
+   "holm_p": 1.0,
+   "rgb_wilson95_pct": [
+    64.14692935030095,
+    93.32132367136705
+   ],
+   "depth_wilson95_pct": [
+    64.14692935030095,
+    93.32132367136705
+   ]
+  },
+  {
+   "condition": "front",
+   "n_pairs": 24,
+   "rgb": 14,
+   "depth": 20,
+   "depth_only_success": 7,
+   "rgb_only_success": 1,
+   "mcnemar_p": 0.0703125,
+   "holm_p": 0.28125,
+   "rgb_wilson95_pct": [
+    38.834665865228764,
+    75.53239739018824
+   ],
+   "depth_wilson95_pct": [
+    64.14692935030095,
+    93.32132367136705
+   ]
+  },
+  {
+   "condition": "head",
+   "n_pairs": 24,
+   "rgb": 18,
+   "depth": 24,
+   "depth_only_success": 6,
+   "rgb_only_success": 0,
+   "mcnemar_p": 0.03125,
+   "holm_p": 0.15625,
+   "rgb_wilson95_pct": [
+    55.100555994846005,
+    88.00063377140499
+   ],
+   "depth_wilson95_pct": [
+    86.20237953250198,
+    100.0
+   ]
+  },
+  {
+   "condition": "side",
+   "n_pairs": 24,
+   "rgb": 23,
+   "depth": 24,
+   "depth_only_success": 1,
+   "rgb_only_success": 0,
+   "mcnemar_p": 1.0,
+   "holm_p": 1.0,
+   "rgb_wilson95_pct": [
+    79.75819352134405,
+    99.26065438344942
+   ],
+   "depth_wilson95_pct": [
+    86.20237953250198,
+    100.0
+   ]
+  }
+ ],
+ "ablation": [
+  {
+   "kind": "camera3d",
+   "condition": "none",
+   "n": 6,
+   "success": 0,
+   "matched_depth_n": 6,
+   "matched_depth_success": 6,
+   "same_scenes_as_primary_seed0": true
+  },
+  {
+   "kind": "camera3d",
+   "condition": "top",
+   "n": 6,
+   "success": 0,
+   "matched_depth_n": 6,
+   "matched_depth_success": 4,
+   "same_scenes_as_primary_seed0": true
+  },
+  {
+   "kind": "camera3d",
+   "condition": "head",
+   "n": 6,
+   "success": 0,
+   "matched_depth_n": 6,
+   "matched_depth_success": 6,
+   "same_scenes_as_primary_seed0": true
+  },
+  {
+   "kind": "depth_only",
+   "condition": "none",
+   "n": 6,
+   "success": 4,
+   "matched_depth_n": 6,
+   "matched_depth_success": 6,
+   "same_scenes_as_primary_seed0": true
+  },
+  {
+   "kind": "depth_only",
+   "condition": "top",
+   "n": 6,
+   "success": 2,
+   "matched_depth_n": 6,
+   "matched_depth_success": 4,
+   "same_scenes_as_primary_seed0": true
+  },
+  {
+   "kind": "depth_only",
+   "condition": "head",
+   "n": 6,
+   "success": 2,
+   "matched_depth_n": 6,
+   "matched_depth_success": 6,
+   "same_scenes_as_primary_seed0": true
+  },
+  {
+   "kind": "depth_stacking",
+   "condition": "none",
+   "n": 6,
+   "success": 6,
+   "matched_depth_n": 6,
+   "matched_depth_success": 6,
+   "same_scenes_as_primary_seed0": true
+  },
+  {
+   "kind": "depth_stacking",
+   "condition": "top",
+   "n": 6,
+   "success": 4,
+   "matched_depth_n": 6,
+   "matched_depth_success": 4,
+   "same_scenes_as_primary_seed0": true
+  },
+  {
+   "kind": "depth_stacking",
+   "condition": "head",
+   "n": 6,
+   "success": 6,
+   "matched_depth_n": 6,
+   "matched_depth_success": 6,
+   "same_scenes_as_primary_seed0": true
+  },
+  {
+   "kind": "gated_fusion",
+   "condition": "none",
+   "n": 6,
+   "success": 6,
+   "matched_depth_n": 6,
+   "matched_depth_success": 6,
+   "same_scenes_as_primary_seed0": true
+  },
+  {
+   "kind": "gated_fusion",
+   "condition": "top",
+   "n": 6,
+   "success": 4,
+   "matched_depth_n": 6,
+   "matched_depth_success": 4,
+   "same_scenes_as_primary_seed0": true
+  },
+  {
+   "kind": "gated_fusion",
+   "condition": "head",
+   "n": 6,
+   "success": 6,
+   "matched_depth_n": 6,
+   "matched_depth_success": 6,
+   "same_scenes_as_primary_seed0": true
+  },
+  {
+   "kind": "gt",
+   "condition": "none",
+   "n": 6,
+   "success": 6,
+   "matched_depth_n": 6,
+   "matched_depth_success": 6,
+   "same_scenes_as_primary_seed0": true
+  },
+  {
+   "kind": "gt",
+   "condition": "top",
+   "n": 6,
+   "success": 5,
+   "matched_depth_n": 6,
+   "matched_depth_success": 4,
+   "same_scenes_as_primary_seed0": true
+  },
+  {
+   "kind": "gt",
+   "condition": "head",
+   "n": 6,
+   "success": 6,
+   "matched_depth_n": 6,
+   "matched_depth_success": 6,
+   "same_scenes_as_primary_seed0": true
+  },
+  {
+   "kind": "random_depth",
+   "condition": "none",
+   "n": 12,
+   "success": 12,
+   "matched_depth_n": 12,
+   "matched_depth_success": 12,
+   "same_scenes_as_primary_seed0": true
+  },
+  {
+   "kind": "random_depth",
+   "condition": "top",
+   "n": 12,
+   "success": 8,
+   "matched_depth_n": 12,
+   "matched_depth_success": 8,
+   "same_scenes_as_primary_seed0": true
+  },
+  {
+   "kind": "random_depth",
+   "condition": "front",
+   "n": 12,
+   "success": 6,
+   "matched_depth_n": 12,
+   "matched_depth_success": 6,
+   "same_scenes_as_primary_seed0": true
+  },
+  {
+   "kind": "random_depth",
+   "condition": "head",
+   "n": 12,
+   "success": 12,
+   "matched_depth_n": 12,
+   "matched_depth_success": 12,
+   "same_scenes_as_primary_seed0": true
+  },
+  {
+   "kind": "rgb_bibranch_matched",
+   "condition": "none",
+   "n": 12,
+   "success": 11,
+   "matched_depth_n": 12,
+   "matched_depth_success": 12,
+   "same_scenes_as_primary_seed0": true
+  },
+  {
+   "kind": "rgb_bibranch_matched",
+   "condition": "top",
+   "n": 12,
+   "success": 8,
+   "matched_depth_n": 12,
+   "matched_depth_success": 8,
+   "same_scenes_as_primary_seed0": true
+  },
+  {
+   "kind": "rgb_bibranch_matched",
+   "condition": "front",
+   "n": 12,
+   "success": 6,
+   "matched_depth_n": 12,
+   "matched_depth_success": 6,
+   "same_scenes_as_primary_seed0": true
+  },
+  {
+   "kind": "rgb_bibranch_matched",
+   "condition": "head",
+   "n": 12,
+   "success": 12,
+   "matched_depth_n": 12,
+   "matched_depth_success": 12,
+   "same_scenes_as_primary_seed0": true
+  }
+ ],
+ "per_training_seed": {
+  "0": {
+   "rgb": {
+    "success": 35,
+    "n": 40
+   },
+   "depth": {
+    "success": 34,
+    "n": 40
+   }
+  },
+  "1": {
+   "rgb": {
+    "success": 33,
+    "n": 40
+   },
+   "depth": {
+    "success": 39,
+    "n": 40
+   }
+  },
+  "2": {
+   "rgb": {
+    "success": 30,
+    "n": 40
+   },
+   "depth": {
+    "success": 39,
+    "n": 40
+   }
+  }
+ },
+ "phase2": {
+  "corrected_rgb": {
+   "success": 0,
+   "n": 30
+  },
+  "corrected_depth": {
+   "success": 17,
+   "n": 30
+  },
+  "legacy_rgb": {
+   "success": 2,
+   "n": 2
+  },
+  "legacy_depth": {
+   "success": 2,
+   "n": 2
+  }
+ },
+ "phase2_pooled_p": 1.52587890625e-05
+}

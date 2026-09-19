@@ -1,0 +1,7 @@
+{
+  "algorithm": "SHA-256",
+  "phase1_dataset_manifest": "3194637c7a6cd0bd3e2f9220814dd83b1f01503a2a02d0d06db4e864449d1147",
+  "phase2_dataset_manifest": "e1972946e74b950f7c6cbc6c4c18ef946681d2621c188334d46c5eba49b30a64",
+  "source": "Dataset-manifest identifiers previously printed in Appendix A, relocated to supplementary metadata for readability.",
+  "verification_scope": "These are retained provenance identifiers. The underlying demonstration files are not included or independently rehashed in this editorial pass."
+}

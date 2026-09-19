@@ -1,0 +1,102 @@
+{
+  "bootstrap": {
+    "replicates": 2000,
+    "rng_seed": "20260914 + condition index",
+    "stratification": "training seed; resample eight scene pairs within each stratum",
+    "interval": "pointwise percentile 95%; not multiplicity adjusted",
+    "inference": "exploratory, conditional on evaluated policies; all attempts including caps/follow-up"
+  },
+  "primary": [
+    {
+      "condition": "none",
+      "n": 24,
+      "b": 1,
+      "c": 0,
+      "matched_or": "infinity",
+      "or95": [
+        0.025641025641025644,
+        "infinity"
+      ],
+      "rgb_mean_steps": 561.3333333333334,
+      "depth_mean_steps": 525.625,
+      "mean_step_difference": -35.708333333333336,
+      "step_difference95": [
+        -203.725,
+        131.1760416666666
+      ]
+    },
+    {
+      "condition": "top",
+      "n": 24,
+      "b": 3,
+      "c": 3,
+      "matched_or": 1.0,
+      "or95": [
+        0.13393758817773016,
+        7.466164006724067
+      ],
+      "rgb_mean_steps": 827.2083333333334,
+      "depth_mean_steps": 764.0,
+      "mean_step_difference": -63.208333333333336,
+      "step_difference95": [
+        -293.2135416666667,
+        194.02291666666633
+      ]
+    },
+    {
+      "condition": "front",
+      "n": 24,
+      "b": 7,
+      "c": 1,
+      "matched_or": 7.0,
+      "or95": [
+        0.8993003458753565,
+        315.48338536877736
+      ],
+      "rgb_mean_steps": 1355.0,
+      "depth_mean_steps": 831.75,
+      "mean_step_difference": -523.25,
+      "step_difference95": [
+        -715.5593749999999,
+        -324.61875000000003
+      ]
+    },
+    {
+      "condition": "head",
+      "n": 24,
+      "b": 6,
+      "c": 0,
+      "matched_or": "infinity",
+      "or95": [
+        1.1774247257241777,
+        "infinity"
+      ],
+      "rgb_mean_steps": 901.125,
+      "depth_mean_steps": 628.875,
+      "mean_step_difference": -272.25,
+      "step_difference95": [
+        -522.8395833333334,
+        -41.73229166666676
+      ]
+    },
+    {
+      "condition": "side",
+      "n": 24,
+      "b": 1,
+      "c": 0,
+      "matched_or": "infinity",
+      "or95": [
+        0.025641025641025644,
+        "infinity"
+      ],
+      "rgb_mean_steps": 602.4583333333334,
+      "depth_mean_steps": 512.5,
+      "mean_step_difference": -89.95833333333333,
+      "step_difference95": [
+        -226.30624999999998,
+        10.210416666666656
+      ]
+    }
+  ],
+  "wilson_halfwidth_n24_p05_percentage_points": 18.572574180426646
+}

@@ -1,0 +1,78 @@
+{
+  "status": "COMPLETE",
+  "rows": [
+    {
+      "mode": "original",
+      "view": "topview",
+      "offsamples": 4,
+      "pixels": 160279,
+      "max_m": 1182.80419921875,
+      "median_m": 0.939316987991333,
+      "pixels_gt10m": 43
+    },
+    {
+      "mode": "original",
+      "view": "frontview",
+      "offsamples": 4,
+      "pixels": 173157,
+      "max_m": 1284.047119140625,
+      "median_m": 1.402195930480957,
+      "pixels_gt10m": 183
+    },
+    {
+      "mode": "original",
+      "view": "headview",
+      "offsamples": 4,
+      "pixels": 0,
+      "max_m": null,
+      "median_m": null,
+      "pixels_gt10m": 0
+    },
+    {
+      "mode": "original",
+      "view": "sideview",
+      "offsamples": 4,
+      "pixels": 173666,
+      "max_m": 1179.6055908203125,
+      "median_m": 0.548401951789856,
+      "pixels_gt10m": 287
+    },
+    {
+      "mode": "no_msaa",
+      "view": "topview",
+      "offsamples": 0,
+      "pixels": 160279,
+      "max_m": 1.7054202556610107,
+      "median_m": 0.9393596053123474,
+      "pixels_gt10m": 0
+    },
+    {
+      "mode": "no_msaa",
+      "view": "frontview",
+      "offsamples": 0,
+      "pixels": 173157,
+      "max_m": 2.554946184158325,
+      "median_m": 1.4023693799972534,
+      "pixels_gt10m": 0
+    },
+    {
+      "mode": "no_msaa",
+      "view": "headview",
+      "offsamples": 0,
+      "pixels": 0,
+      "max_m": null,
+      "median_m": null,
+      "pixels_gt10m": 0
+    },
+    {
+      "mode": "no_msaa",
+      "view": "sideview",
+      "offsamples": 0,
+      "pixels": 173666,
+      "max_m": 2.561147451400757,
+      "median_m": 0.5478611588478088,
+      "pixels_gt10m": 0
+    }
+  ],
+  "purpose": "Single fixed scene native target/depth edge probe; separate MSAA intervention, not replacing policy dataset"
+}

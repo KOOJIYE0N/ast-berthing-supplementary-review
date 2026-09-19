@@ -1,0 +1,56 @@
+{
+  "coefficients": {
+    "topview": [
+      0.11909493565226427,
+      0.1374411120642805
+    ],
+    "frontview": [
+      0.17528360426776307,
+      -0.020156990641697344
+    ],
+    "headview": [
+      0.27871769382468825,
+      -0.0656103880574479
+    ],
+    "sideview": [
+      0.42173295852372344,
+      -0.08274819644506003
+    ]
+  },
+  "plan": {
+    "calibration_seeds": [
+      977001,
+      977002,
+      977003,
+      977004
+    ],
+    "test_seeds": [
+      977101,
+      977102,
+      977103,
+      977104,
+      977105,
+      977106,
+      977107,
+      977108,
+      977109,
+      977110,
+      977111,
+      977112
+    ],
+    "conditions": [
+      "nominal",
+      "light_material_stress",
+      "occlusion"
+    ],
+    "renderer": "MSAA disabled for paired RGB/native GT/segmentation; separate diagnostic from policy evaluation",
+    "GT_resize": "nearest from native camera-axis meters; bilinear saved separately",
+    "calibration": "per-view affine inverse depth using all valid stride4 nominal calibration pixels; frozen before test",
+    "edge": "GT logdepth gradient>.1; predicted gradient top10percent, tolerance2px; diagnostic thresholds fixed before new data",
+    "limits": [
+      "Camera geometry unchanged; head target coverage may remain insufficient",
+      "Light/material intervention strength measured, not assumed strong reflection",
+      "Separate diagnostic dataset, not replacement for historical2400views or policy inputs"
+    ]
+  }
+}

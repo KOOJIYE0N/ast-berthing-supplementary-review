@@ -1,0 +1,90 @@
+{
+  "source": "June 16 manuscript, displayed success counts in Tables 1, 4, 5",
+  "method": "Two-sided probability-ordered Fisher exact test; exact rational enumeration",
+  "definition_reference": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.fisher_exact.html",
+  "scope": "Unpaired marginal sensitivity analysis, not a reconstruction of paired episodes",
+  "main_200": {
+    "depth": 147,
+    "rgb": 104,
+    "n_per_controller": 200,
+    "fisher_p": 1.2723942156581838e-05
+  },
+  "original_reported_mcnemar_not_recomputed": [
+    0.092,
+    0.001,
+    0.007,
+    1.0,
+    1.0
+  ],
+  "rows": [
+    {
+      "condition": "nominal",
+      "n_per_controller": 30,
+      "depth": 19,
+      "rgb": 12,
+      "ik": 28,
+      "fisher_depth_rgb": 0.12045441372200838,
+      "fisher_depth_ik": 0.010248938246969971,
+      "fisher_rgb_ik": 1.874755460780121e-05,
+      "holm_depth_rgb_family5": 0.36136324116602514,
+      "holm_depth_ik_family10": 0.030746814740909914,
+      "holm_rgb_ik_family10": 0.0001687279914702109
+    },
+    {
+      "condition": "top",
+      "n_per_controller": 30,
+      "depth": 20,
+      "rgb": 6,
+      "ik": 0,
+      "fisher_depth_rgb": 0.000573726156541731,
+      "fisher_depth_ik": 1.43349854501469e-08,
+      "fisher_rgb_ik": 0.023720703916957263,
+      "holm_depth_rgb_family5": 0.002868630782708655,
+      "holm_depth_ik_family10": 1.4334985450146902e-07,
+      "holm_rgb_ik_family10": 0.047441407833914526
+    },
+    {
+      "condition": "head",
+      "n_per_controller": 30,
+      "depth": 16,
+      "rgb": 5,
+      "ik": 3,
+      "fisher_depth_rgb": 0.006107224773226807,
+      "fisher_depth_ik": 0.0006310253578028921,
+      "fisher_rgb_ik": 0.7064691994252865,
+      "holm_depth_rgb_family5": 0.024428899092907227,
+      "holm_depth_ik_family10": 0.0037861521468173526,
+      "holm_rgb_ik_family10": 0.7064691994252865
+    },
+    {
+      "condition": "front",
+      "n_per_controller": 30,
+      "depth": 11,
+      "rgb": 12,
+      "ik": 0,
+      "fisher_depth_rgb": 1.0,
+      "fisher_depth_ik": 0.0003188052525640556,
+      "fisher_rgb_ik": 0.0001236183632391236,
+      "holm_depth_rgb_family5": 1.0,
+      "holm_depth_ik_family10": 0.002231636767948389,
+      "holm_rgb_ik_family10": 0.0009889469059129888
+    },
+    {
+      "condition": "side",
+      "n_per_controller": 30,
+      "depth": 9,
+      "rgb": 8,
+      "ik": 0,
+      "fisher_depth_rgb": 1.0,
+      "fisher_depth_ik": 0.001935603319138909,
+      "fisher_rgb_ik": 0.004575062390691967,
+      "holm_depth_rgb_family5": 1.0,
+      "holm_depth_ik_family10": 0.009678016595694545,
+      "holm_rgb_ik_family10": 0.018300249562767868
+    }
+  ],
+  "scipy_crosscheck": {
+    "version": "1.18.1",
+    "comparisons_verified": 16
+  }
+}
