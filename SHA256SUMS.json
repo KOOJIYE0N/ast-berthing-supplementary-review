@@ -1,5 +1,10 @@
 {
-  "README.md": "908c0284ade3fc1febf00ace83aa0ef7fca83c2a4427d4698ee7470c6b6340ec",
+  "R2_Analysis/README.txt": "9178a349d28b31fdaae5feabc8174fb9cc74c38f389e48b472256b6a51186ccb",
+  "R2_Analysis/phase1_720_outcomes.csv": "98be205359e466033c668ca29634da489896efbb23c7e689da99dab67406dd70",
+  "R2_Analysis/phase2_50_pair_summary.csv": "3f306d18d2d65bba72f171d7067adb13abea81c024b39be1136da4a4fa7c3c4e",
+  "R2_Analysis/r2_integrated_analysis.json": "0f377b8bdad0738d734d5cc8201052dc04c628255fb31f4980241ac28c0f5b33",
+  "R2_Analysis.zip": "69bed94d6fd44cf44fdffe5628483892eafbfd6f15149b417013165aa8e01837",
+  "README.md": "3acfca3460f6c58e2dd8c0519ead48deafa577eea6a03fe322cf136b4b8aef99",
   "calculation_sources/revision_eval_phase2_20260912.py": "91d7f561c296cba48b158f81c22b2a648f5d0c04a4fa774f9c6b8cb6b537aa8c",
   "calculation_sources/revision_primary_utils_20260911.py": "d0a972035cadced0221fd4c757121dcb3b710445089184921716a2be958dc127",
   "metadata/depth_boundary_probe.json": "3a7af6589b72585548eb7e5f2b05c7f7576f70564262151dc3b7850e45c1deba",

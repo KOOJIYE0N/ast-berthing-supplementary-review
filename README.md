@@ -1,5 +1,20 @@
 # Supplementary Data for AESCTE-D-26-04219
 
+## Current evaluation package
+
+The current revision records are in [R2_Analysis](R2_Analysis/). The same four files are available in [R2_Analysis.zip](R2_Analysis.zip).
+
+- [Phase 1 outcome records](R2_Analysis/phase1_720_outcomes.csv): 720 outcomes from the same 24 scenes across three training seeds, five camera conditions, and two policies. Scene blocks, rather than individual model outcomes, are the independent units for the reported inference.
+- [Phase 2 paired summaries](R2_Analysis/phase2_50_pair_summary.csv): 50 paired trials from the separate exploratory diagnostic with a 6,000-policy-step horizon. RGB-only and depth-fused crossings are 12/50 and 23/50, respectively.
+- [Integrated analysis summaries](R2_Analysis/r2_integrated_analysis.json): reported aggregate counts, intervals, statistical tests, and trajectory diagnostics.
+- [Package README](R2_Analysis/README.txt): provenance, statistical definitions, and the scope of the supplied records.
+
+The current package matches the accompanying submission files byte for byte. Earlier records below are preserved for traceability and are not pooled with the current evaluation. The older scripts below apply to the earlier archive; they do not compute the current common-scene statistics or the 50-pair diagnostics.
+
+## Earlier evaluation archive
+
+The remainder of this README describes the earlier archive and its original evaluation design.
+
 This archive supports reanalysis of the controlled evaluation and the saved depth diagnostic. It does not contain a complete training or simulator-reproduction package. Initial-protocol aggregate checks are separated from controlled outcomes and are not primary statistical evidence.
 
 ## Contents
